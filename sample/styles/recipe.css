@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .img1-arrow img{
+        width: 52px;
+        margin-top: 75px;
+        margin-left: 50px;
+    }
+
+    .img2-logo{
+        z-index: 1;
+    }
+
+    .img2-logo img{
+        width: 461px;
+       margin-top: -150px;
+       margin-bottom: -10px;
+      
+    }
+}
+
+.recipe-desc{
+
+
+    .img3-rcp img{
+        width: 100%;
+        margin-top: -150px;
+      
+    }
+}
+
+.title-serve{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.serving{
+    font-size: 20px;
+    
+}
+.title{
+    color: #FF5757; 
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+
+.infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    .info1{
+        margin-left: 100px;
+        font-size: 25px;
+    }
+
+    .info2{
+        margin-right: 150px;
+        font-size: 25px;
+    }
+    .flav{
+        margin-left: 100px;
+    }
+    
+}
+
+.nutri, .ingredients, .alternative{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .nutri-title{
+        margin: 75px 0px 0px 100px;
+        
+    }
+    .nutri-title h2, .ingr-title h2, .alt-title h2{
+        font-weight: normal;
+        font-size: 40px;
+    }
+    .nutri-info{
+        margin: 50px 300px 0px 0px;
+        font-size: 23px;
+    }
+    
+    .ingr-title{
+        margin: 175px 0px 0px 100px;
+       
+    }
+    .ingr-info{
+        margin: 100px 165px 0px 0px;
+        font-size: 23px;
+    }
+    
+    
+    .alt-title{
+        margin: 75px 0px 0px 100px;
+    }
+    .alt-info{
+        margin: 75px 270px 0px 0px;
+        font-size: 23px;
+        width: 300px;
+    }
+    
+}
+
+
+
+.preparation, .storage, .note{
+
+    margin: 50px 0px 0px 100px;
+    font-weight: normal;
+
+    .prep-info ul li{
+        list-style: none;
+    }
+    .prep-info, .note-info{
+        margin-top: 25px;
+        
+    }
+    .prep-info{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .note-info{
+        font-size: 20px;
+        margin-left: 30px;
+        width: 1300px;
+       
+      
+        
+    }
+    .stg-info{
+        margin: 20px 0px 0px 30px;
+        font-size: 20px;
+    }
+
+    .prep-title h2, .stg-title h2, .note-title h2{
+        font-weight: normal;
+        font-size: 35px;
+    } 
+    
+    
+    
+}
+
+.browse{
+    margin: 60px 50px 0px 600px;
+    height: 100px;
+    text-align: center;
+    
+}
+
+.browse-btn{
+    text-align: center;
+    background-color: #ee9494;
+    padding: 10px;
+    width:300px;
+    border-radius: 60px;
+}
+
+.browse-btn h4{
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+}
+
+.line{
+    margin: 50px 150px 0px 150px;
+}
+
+.img4-rcp-mobtab{
+    display: none;
+}
+
+

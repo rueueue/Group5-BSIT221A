@@ -1,5 +1,13 @@
+import"@/styles/recipe.css";
 import "@/styles/globals.css";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+function App({ Component, pageProps }) {
+  return(
+   <>
+
+  <Component {...pageProps} />
+  
+   </>
+  ) 
 }
+export default App
