@@ -1,8 +1,6 @@
 function RecipePage(){
     return(
    <>
-   <>
-   <>
   <meta charSet="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="recipe_styles.css" />
@@ -179,10 +177,6 @@ function RecipePage(){
     </div>
   </div>
 </>
-
-</>
-
-        </>
     )
 }
 export default RecipePage

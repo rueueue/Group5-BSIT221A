@@ -5,10 +5,9 @@ import styles from "@/styles/Home.module.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+ function Home() {
   return (
     <>
-      <>
   <meta charSet="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rizzy-P | Pinoy Recipes with Love</title>
@@ -472,8 +471,8 @@ export default function Home() {
       </div>
     </div>
   </div>
-</>
-
     </>
   );
 }
+
+export default Home
