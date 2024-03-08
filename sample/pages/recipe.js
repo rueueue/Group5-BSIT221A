@@ -52,7 +52,7 @@ function RecipePage(){
             <b>Skill Level:</b> <span>Beginner</span>
           </div>
           <div className="flav">
-            <b>Flavor:</b>
+            <b>Flavor: </b>
             <span>Salty</span>
           </div>
         </div>
