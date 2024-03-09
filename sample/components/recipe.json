@@ -7,7 +7,12 @@
           "skill": "Beginner",
           "flavor":"Salty",
           "allergenInformation": "Contains fish",
-  
+          
+          "images":{
+            "image1": "assets/chicken_tinola_landing.jpg",
+            "image2": "img/tinola.png"
+          },
+
           "filters":{
             "allergens1": "Fish",
             "allergens2": "",
@@ -72,6 +77,11 @@
           "flavor":"Salty & Slightly Spicy",
           "allergenInformation": " Contains fish (Bangus)",
   
+          "images":{
+            "image1": "assets/bangus_sisig_landing.jpg",
+            "image2": "img/bangus-sisig.png"
+          },
+
           "filters":{
             "allergens1": "Fish",
             "allergens2": "",
@@ -135,6 +145,11 @@
           "flavor":"Spicy",
           "allergenInformation": "Shrimp paste (Bagoong)",
   
+          "images":{
+            "image1": "assets/laing_landing.jpg",
+            "image2": "img/laing.png"
+          },
+
           "filters":{
             "allergens1": "Shrimp",
             "allergens2": "",
@@ -197,6 +212,11 @@
           "flavor":"Salty",
           "allergenInformation": "Shrimp paste (Bagoong)",
   
+          "images":{
+            "image1": "assets/pork_binagoongan_landing.jpg",
+            "image2": "img/pork-binagoongan.png"
+          },
+          
         "filters":{
             "allergens1": "Shrimp",
             "allergens2": "",
@@ -260,6 +280,11 @@
           "flavor": "Slightly Sweet & Salty",
           "allergenInformation": "Fish (tinapa), pork (chicharron)",
   
+          "images":{
+            "image1": "assets/pancit_malabon_landing.jpg",
+            "image2": "img/pancit-malabon.png"
+          },
+
           "filters":{
             "allergens": "Fish",
             "allergens1": "Pork",
@@ -325,6 +350,10 @@
         "flavor":"Sour", 
         "allergenInformation": "None",
   
+        "images":{
+          "image1": "assets/adobong_pusit_landing.jpg",
+          "image2": "img/adobong-pusit.png"
+        },
         
         "filters":{
           "allergens1": "",
@@ -386,6 +415,10 @@
         "flavor":"Sour",
         "allergenInformation": "Pork Blood",
   
+        "images":{
+          "image1": "assets/dinuguan_landing.jpg",
+          "image2": "img/dinuguan.png"
+        },
         
         "filters":{
           "allergens1": "Pork",
@@ -448,6 +481,11 @@
         "flavor":"Spicy",
         "allergenInformation": "Shrimp paste (Bagoong)",
   
+        "images":{
+          "image1": "assets/gising_gising_landing.jpg",
+          "image2": "img/gising-gising.png"
+        },
+
         "filters":{
           "allergens1": "Shrimp",
           "allergens2": "",
@@ -514,6 +552,11 @@
         "flavor": "Spicy",
         "allergenInformation": "None",
   
+        "images":{
+          "image1": "assets/bicol_express_landing.jpg",
+          "image2": "img/bicol-express.png"
+        },
+
         "filters":{
           "allergens1": "",
           "allergens2": "",
@@ -574,6 +617,11 @@
         "flavor": "Salty & Slightly Sweet",
         "allergenInformation": "Peanuts and Fish",
   
+        "images":{
+          "image1": "assets/kare_kareng_buntot_ng_baka_landing.jpg",
+          "image2": "img/kare-kareng-buntot-ng-baka.png"
+        },
+
         "filters":{
           "allergens1": "Peanuts",
           "allergens2": "Fish",

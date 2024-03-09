@@ -1,3 +1,4 @@
+import Link from "next/link";
 
         <div className="filter-options-container1">
           <div className="allergen-container">
@@ -100,4 +101,5 @@
                 <button className="filter-button">Filter out</button>
                 <p>hello</p>
                 <p>push pls</p>
+                <p>pakiusap</p>
 </div>                
