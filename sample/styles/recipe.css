@@ -155,9 +155,152 @@
         font-weight: normal;
         font-size: 35px;
     } 
-    
-    
-    
+}
+
+/* Tablet mode (768px) */
+@media only screen and (min-width: 768px) and (max-width: 768px){ /*minimum and maximum width of 768px added to not affect laptop/desktop mode*/
+    .navbar .arrow {
+        margin: 60px 0 0 60px;
+    }
+
+    .navbar .icon {
+        font-size: 35px;
+        color: black;
+    }
+
+    .navbar .img2-logo img {
+        width: 461px;
+        margin-top: -150px;
+        margin-bottom: -10px;
+    }
+
+    .infos {
+        margin-top: 30px;
+
+        .info1 {
+            margin-left: 100px;
+            font-size: 25px;
+        }
+
+        .info2 {
+            margin-right: 150px;
+            font-size: 25px;
+        }
+
+        .flav {
+            margin-left: 100px;
+        }
+    }
+
+    .nutri, .ingredients, .alternative {
+        .nutri-title {
+            margin: 75px 0 0 100px;
+        }
+
+        .nutri-title h2, .ingr-title h2, .alt-title h2 {
+            font-weight: normal;
+            font-size: 40px;
+        }
+
+        .nutri-info {
+            margin: 50px 140px 0 0;
+            font-size: 23px;
+        }
+
+        .ingr-title {
+            margin: 175px 0 0 100px;
+        }
+
+        .ingr-info {
+            margin: 100px 5px 0 0;
+            font-size: 23px;
+        }
+
+        .alt-title {
+            margin: 75px 0 0 100px;
+        }
+
+        .alt-info {
+            margin: 75px 240px 0 0;
+            font-size: 23px;
+            width: 300px;
+        }
+    }
+
+    .preparation, .storage, .note {
+        margin: 50px 0 0 100px;
+        font-weight: normal;
+
+        .prep-info ul li {
+            list-style: none;
+        }
+
+        .prep-info, .note-info {
+            margin-top: 25px;
+        }
+
+        .prep-info {
+            font-size: 20px;
+            margin-left: 10px;
+        }
+
+        .note-info {
+            font-size: 20px;
+            margin-left: 30px;
+            width: 600px;/*Added width to fit tablet mode*/
+        }
+
+        .stg-info {
+            margin: 20px 0 0 30px;
+            font-size: 20px;
+        }
+
+        .prep-title h2, .stg-title h2, .note-title h2 {
+            font-weight: normal;
+            font-size: 35px;
+        }
+    }
+
+    .browse {
+        margin: 60px 0 0 0; /*changed margin for tablet mode*/
+        height: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .browse-btn {
+        background-color: #ee9494;
+        padding: 17px 40px; 
+        border-radius: 50px;
+        cursor: pointer;
+        border: 0;
+        color: white;
+        box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        font-size: 15px;
+        transition: all 0.5s ease;
+        margin: 20px 0; 
+    }
+
+    .browse-btn:hover {
+        letter-spacing: 3px;
+        background-color: #ee9494;
+        color: hsl(0, 0%, 100%);
+        box-shadow: #F3F3F3;
+    }
+
+    .browse-btn:active {
+        letter-spacing: 3px;
+        background-color: #ee9494;
+        color: hsl(0, 0%, 100%);
+        box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+        transform: translateY(10px);
+        transition: 100ms;
+    }
 }
 
 .browse{
