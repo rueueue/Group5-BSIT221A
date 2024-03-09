@@ -9,7 +9,7 @@
           "allergenInformation": "Contains fish",
           
           "images":{
-            "image1": "",
+            "image1": "/assets/chicken_tinola_landing.jpg",
             "image2":"/img/tinola.png"
           },
 
@@ -77,8 +77,9 @@
           "flavor":"Salty & Slightly Spicy",
           "allergenInformation": " Contains fish (Bangus)",
 
+          
           "images":{
-            "image1": "",
+            "image1": "/assets/bangus_sisig_landing.jpg",
             "image2":"/img/bangus.png"
           },
   
@@ -146,7 +147,7 @@
           "allergenInformation": "Shrimp paste (Bagoong)",
 
           "images":{
-            "image1": "",
+            "image1": "/assets/laing_landing.jpg",
             "image2":"/img/laing.png"
           },
   
@@ -213,7 +214,7 @@
           "allergenInformation": "Shrimp paste (Bagoong)",
 
           "images":{
-            "image1": "",
+            "image1": "/assets/pork_binagoongan_landing.jpg",
             "image2":"/img/pork.png"
           },
   
@@ -281,7 +282,7 @@
           "allergenInformation": "Fish (tinapa), pork (chicharron)",
 
           "images":{
-            "image1": "",
+            "image1": "/assets/pancit_malabon_landing.jpg",
             "image2":"/img/pancit.png"
           },
   
@@ -351,7 +352,7 @@
         "allergenInformation": "None",
 
         "images":{
-          "image1": "",
+          "image1": "/assets/adobong_pusit_landing.jpg",
           "image2":"/img/adobong_pusit.png"
         },
   
@@ -416,7 +417,7 @@
         "allergenInformation": "Pork Blood",
 
         "images":{
-          "image1": "",
+          "image1": "/asssets/dinguan_landing.jpg",
           "image2":"/img/dinuguan.png"
         },
   
@@ -482,7 +483,7 @@
         "allergenInformation": "Shrimp paste (Bagoong)",
 
         "images":{
-          "image1": "",
+          "image1": "/assets/gising_gising.jpg",
           "image2":"/img/gising.png"
         },
   
@@ -553,7 +554,7 @@
         "allergenInformation": "None",
 
         "images":{
-          "image1": "",
+          "image1": "/assets/bicol_express_landing.jpg",
           "image2":"/img/bicol.png"
         },
   
@@ -618,7 +619,7 @@
         "allergenInformation": "Peanuts and Fish",
 
         "images":{
-          "image1": "",
+          "image1": "/assets/kare_kareng_buntot_ng_baka_landing.jpg",
           "image2":"/img/kare-kare.png"
         },
   
