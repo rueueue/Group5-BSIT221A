@@ -183,7 +183,7 @@
         }
 
         .info2 {
-            margin-right: 150px;
+            text-align: right;/*To align text in tablet mode*/
             font-size: 25px;
         }
 
@@ -194,7 +194,7 @@
 
     .nutri, .ingredients, .alternative {
         .nutri-title {
-            margin: 75px 0 0 100px;
+            margin: 75px 0 0 50px;
         }
 
         .nutri-title h2, .ingr-title h2, .alt-title h2 {
@@ -203,25 +203,25 @@
         }
 
         .nutri-info {
-            margin: 50px 140px 0 0;
+            margin: 50px 140px 0 10px;
             font-size: 23px;
         }
 
         .ingr-title {
-            margin: 175px 0 0 100px;
+            margin: 175px 0 0 50px;
         }
 
         .ingr-info {
-            margin: 100px 5px 0 0;
+            margin: 100px 5px 20px 50px;
             font-size: 23px;
         }
 
         .alt-title {
-            margin: 75px 0 0 100px;
+            margin: 75px 0 0 50px;
         }
 
         .alt-info {
-            margin: 75px 240px 0 0;
+            margin: 75px 250px 0 80px;
             font-size: 23px;
             width: 300px;
         }
