@@ -1,15 +1,19 @@
 import Link from "next/link";
-import fs from 'fs';
 import path from 'path';
+
+let fs;
+if (typeof window === 'undefined') {
+  fs = require('fs');
+}
 
 export default function RecipeHome({ recipes }) {
   return (
     <>
       {recipes && recipes.map((recipe) => {
         return(
-        <div className="recipe-card-container" key={recipe.id}>
+        <div className="recipe-card-container">
           <div className="recipe-card-list1">
-            <div className="recipe-card">
+            <div className="recipe-card" key={recipe.id}>
               <img
                  className="recipe-card-img"
                  src={`assets/${recipe.image.image2}`}
