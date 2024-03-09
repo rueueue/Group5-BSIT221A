@@ -27,7 +27,6 @@ function Header() {
         <div className="recipe-filter-container">
           <div className="flex-container-with-filters">
             <Search />
-            <Filter />
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Header from "@/components/header";
-import RecipeHome from "@/components/recipe-homepage";
+import RecipeHome from "@/pages/recipe-homepage";
 
 
 function Home() {

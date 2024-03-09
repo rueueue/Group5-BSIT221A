@@ -1,18 +1,14 @@
 import Link from "next/link";
 import path from 'path';
+import fs from "fs";
 
-let fs;
-if (typeof window === 'undefined') {
-  fs = require('fs');
-}
 
 export default function RecipeHome({ recipes }) {
-  return (
+  return(
     <>
-      {recipes && recipes.map((recipe) => {
-        return(
-        <div className="recipe-card-container">
-          <div className="recipe-card-list1">
+    <div className="recipe-card-list1">
+    {recipes.map((recipe) =>{
+      return(
             <div className="recipe-card" key={recipe.id}>
               <img
                  className="recipe-card-img"
@@ -26,15 +22,14 @@ export default function RecipeHome({ recipes }) {
                 <p className="recipe-info">{recipe.time} | {recipe.size}</p>
               </div>
             </div>
-          </div>
-        </div>
-        );
-      })}
+      );
+    })}
+    </div>
     </>
+
   );
+
 }
-
-
 
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), './components/recipe.json');
