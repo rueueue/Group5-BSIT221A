@@ -1,3 +1,4 @@
+import Link from "next/link";
 
         <div className="filter-options-container1">
           <div className="allergen-container">
