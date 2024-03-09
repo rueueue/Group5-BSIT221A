@@ -97,4 +97,5 @@
                     </div>  
                 </div>
                 </div>
+                <button className="filter-button">Filter out</button>
 </div>                
