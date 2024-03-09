@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "@/components/header";
 import RecipeHome from "@/components/recipe-homepage";
 
+
 function Home() {
   return (
     <>
@@ -23,8 +24,13 @@ function Home() {
 
       <Header />
       <RecipeHome />
+      
     </>
   );
 }
 
 export default Home;
+
+
+
+

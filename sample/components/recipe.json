@@ -10,7 +10,7 @@
           
           "images":{
             "image1": "",
-            "image2":"/img/tinola.png"
+            "image2":"../img/tinola.png"
           },
 
           "filters":{
