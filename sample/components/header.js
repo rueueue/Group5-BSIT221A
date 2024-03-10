@@ -1,4 +1,4 @@
-import Search from "./search";
+import Search from "@/Components/search";
 
 function Header({ searchTerm, handleChange }) {
   return (

@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import Head from "next/head";
-import Header from "@/components/header";
-import RecipeHome from "@/components/recipe-homepage";
-import Filter from "@/components/filters";
-import recipes from "@/components/recipe.json";
+import Header from "@/Components/header";
+import RecipeHome from "@/Components/recipe-homepage";
+import recipes from "@/Components/recipe.json";
 import fs from "fs";
 import path from "path";
 
@@ -27,7 +26,6 @@ function Home() {
       </Head>
 
       <Header searchTerm={searchTerm} handleChange={handleChange} />
-      <Filter />
       {SearchedRecipes.map((recipe) => (
         <RecipeHome key={recipe.id} recipe={recipe} />
       ))}
@@ -37,7 +35,7 @@ function Home() {
 
 export default Home;
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), "./components/recipe.json");
+  const filePath = path.join(process.cwd(), "./Components/recipe.json");
   const fileContent = fs.readFileSync(filePath, "utf8");
   const recipes = JSON.parse(fileContent);
 
