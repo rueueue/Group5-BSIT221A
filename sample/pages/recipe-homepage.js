@@ -3,11 +3,15 @@ import path from 'path';
 import fs from "fs";
 
 
+
+
 export default function RecipeHome({ recipes }) {
+console.log(recipes);
   return(
     <>
     <div className="recipe-card-list1">
-    {recipes.map((recipe) =>{
+    {
+     recipes.map((recipe) => {
       return(
             <div className="recipe-card" key={recipe.id}>
               <img
@@ -32,7 +36,7 @@ export default function RecipeHome({ recipes }) {
 }
 
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), './components/recipe.json');
+  const filePath = path.join(process.cwd(), './pages/recipe.json');
   const fileContent = fs.readFileSync(filePath, 'utf8');
   const data = JSON.parse(fileContent);
 
