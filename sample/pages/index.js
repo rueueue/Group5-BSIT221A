@@ -1,9 +1,20 @@
+import React, { useState } from "react";
 import Head from "next/head";
 import Header from "@/components/header";
-import RecipeHome from "@/pages/recipe-homepage";
-
+import RecipeHome from "@/components/recipe-homepage";
+import recipes from "@/components/recipe.json";
+import fs from "fs";
+import path from "path";
 
 function Home() {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const handleChange = (event) => {
+    setSearchTerm(event.target.value);
+  };
+  const SearchedRecipes = recipes.filter((recipe) =>
+    recipe.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
   return (
     <>
       <Head>
@@ -14,15 +25,24 @@ function Home() {
         <link rel="stylesheet" href="globals.css" />
       </Head>
 
-      <Header />
-      <RecipeHome />
+      <Header searchTerm={searchTerm} handleChange={handleChange} />
       
+      {SearchedRecipes.map((recipe) => (
+        <RecipeHome key={recipe.id} recipe={recipe} />
+      ))}
     </>
   );
 }
 
 export default Home;
+export async function getStaticProps() {
+  const filePath = path.join(process.cwd(), "./components/recipe.json");
+  const fileContent = fs.readFileSync(filePath, "utf8");
+  const recipes = JSON.parse(fileContent);
 
-
-
-
+  return {
+    props: {
+      recipes,
+    },
+  };
+}

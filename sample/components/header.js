@@ -1,7 +1,6 @@
 import Search from "./search";
-import Filter from "./filters";
 
-function Header() {
+function Header({ searchTerm, handleChange }) {
   return (
     <div className="recipe-container">
       <div className="content-wrapper">
@@ -26,7 +25,7 @@ function Header() {
         </div>
         <div className="recipe-filter-container">
           <div className="flex-container-with-filters">
-            <Search />
+            <Search searchTerm={searchTerm} handleChange={handleChange} />
           </div>
         </div>
       </div>

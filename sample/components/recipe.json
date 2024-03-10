@@ -1,0 +1,617 @@
+[
+  {
+    "id": 1,
+    "name": "Chicken Tinola",
+    "type": "Chicken",
+    "skill": "Beginner",
+    "flavor": "Salty",
+    "allergenInformation": "Contains fish",
+    "images": {
+      "image1": "../assets/chicken_tinola_landing.jpg",
+      "image2": "../img/tinola.png"
+    },
+    "filters": {
+      "allergens1": "Fish",
+      "allergens2": "",
+      "type": "Chicken",
+      "skills": "Beginner",
+      "flavors1": "Salty",
+      "flavors2": ""
+    },
+
+    "nutrition": {
+      "calories": "250-300",
+      "protein": "20-25g",
+      "carbohydrates": "10-15g",
+      "fat": "10-15g"
+    },
+
+    "ingredients": {
+      "ingredient_1": "1 kg chicken, cut into serving pieces",
+      "ingredient_2": "1 tablespoon oil",
+      "ingredient_3": "1 onion, sliced",
+      "ingredient_4": "2 cloves garlic, minced",
+      "ingredient_5": "1 thumb-sized ginger, julienned",
+      "ingredient_6": "1 green papaya, sliced",
+      "ingredient_7": "1 cup malunggay leaves",
+      "ingredient_8": "1 liter water",
+      "ingredient_9": "Fish sauce and pepper to taste"
+    },
+
+    "alternative": {
+      "alt_1": "Tofu or mushrooms for a vegetarian version.",
+      "alt_2": "Tamari or soy sauce as a fish sauce substitute for a vegetarian or fish-allergic option."
+    },
+
+    "preparation": {
+      "prep_1": "1. Sauté garlic, onion, and ginger in oil until fragrant.",
+      "prep_2": "2. Add chicken, cook until browned.",
+      "prep_3": "3. Pour in water, add papaya, and simmer until chicken is cooked.",
+      "prep_4": "4. Season with fish sauce and pepper, then add malunggay leaves."
+    },
+
+    "time": "45 minutes",
+    "size": "4-6",
+    "instruction": {
+      "instruction_1": "Store leftovers in an airtight container in the refrigerator for up to 2 days.",
+      "instruction_2": "Reheat gently on the stovetop, adding a bit of water if needed to maintain the broth's consistency."
+    },
+    "note": "Enhance the aromatic profile of the Tinola by adding a handful of lemongrass stalks during the simmering process. Remove the lemongrass before serving. The subtle citrus notes will complement the ginger and elevate the overall flavor of this comforting Filipino dish. Adjust the seasoning with fish sauce and pepper according to your taste preference."
+  },
+
+  {
+    "id": 2,
+
+    "name": "Bangus Sisig",
+    "type": "Seafood",
+    "skill": "Intermediate",
+    "flavor": "Salty & Slightly Spicy",
+    "allergenInformation": " Contains fish (Bangus)",
+
+    "images": {
+      "image1": "../assets/bangus_sisig_landing.jpg",
+      "image2": "../img/bangus.png"
+    },
+
+    "filters": {
+      "allergens1": "Fish",
+      "allergens2": "",
+      "type": "Seafood",
+      "skills": "Intermediate",
+      "flavors1": "Salty",
+      "flavors2": "Slightly Spicy"
+    },
+
+    "nutrition": {
+      "calories": "300-350",
+      "protein": "25-30g",
+      "carbohydrates": "10-15g",
+      "fat": "10-20g"
+    },
+
+    "ingredients": {
+      "ingredient_1": "2 boneless bangus (milkfish), flaked",
+      "ingredient_2": "1 onion, chopped",
+      "ingredient_3": "3 green chili peppers, chopped",
+      "ingredient_4": "3 cloves garlic, minced",
+      "ingredient_5": "1 tablespoon soy sauce",
+      "ingredient_6": "1 tablespoon calamansi juice",
+      "ingredient_7": "2 tablespoons mayonnaise",
+      "ingredient_8": "Salt and pepper to taste"
+    },
+
+    "alternative": {
+      "alt_1": "Tempeh or tofu for a vegetarian version.",
+      "alt_2": "Vegan mayonnaise for a plant-based option."
+    },
+
+    "preparation": {
+      "prep_1": "1. Sauté garlic, onion, and chili peppers until soft.",
+      "prep_2": "2. Add flaked bangus, soy sauce, and calamansi juice. Cook until bangus is crispy.",
+      "prep_3": "3. Mix in mayonnaise, season with salt and pepper."
+    },
+
+    "time": "20 minutes",
+    "size": "3-4",
+    "instruction": {
+      "instruction_1": "Refrigerate in an airtight container for up to 2 days.",
+      "instruction_2": "Reheat in a skillet or oven until crispy."
+    },
+
+    "note": "For an extra kick, incorporate finely chopped green chili peppers during the sautéing process. Adjust the level of spiciness to suit your taste. The combination of the mild bangus, tangy calamansi juice, and the heat from the chili peppers adds a dynamic flavor profile to this dish. Serve with a side of garlic rice or as a filling for tacos for a creative twist. Enjoy the fusion of textures and flavors!"
+  },
+
+  {
+    "id": 3,
+
+    "name": "Laing",
+    "type": "Vegetable",
+    "skill": "Intermediate",
+    "flavor": "Spicy",
+    "allergenInformation": "Shrimp paste (Bagoong)",
+
+    "images": {
+      "image1": "../assets/laing_landing.jpg",
+      "image2": "../img/laing.png"
+    },
+
+    "filters": {
+      "allergens1": "Shrimp",
+      "allergens2": "",
+      "type": "Vegetable",
+      "skills": "Intermediate",
+      "flavors1": "Spicy",
+      "flavors2": ""
+    },
+
+    "nutrition": {
+      "calories": "300-350",
+      "protein": "15-20g",
+      "carbohydrates": "10-15g",
+      "fat": "25-30g"
+    },
+
+    "ingredients": {
+      "ingredient_1": "2 cups dried taro leaves",
+      "ingredient_2": "1/2 kg pork belly, sliced",
+      "ingredient_3": "3 tablespoons shrimp paste (bagoong)",
+      "ingredient_4": "2 cups coconut milk",
+      "ingredient_5": "4 cloves garlic, minced",
+      "ingredient_6": "1 onion, chopped",
+      "ingredient_7": "2 tablespoons oil"
+    },
+
+    "alternative": {
+      "alt_1": "Vegan bagoong or miso for a vegetarian version.",
+      "alt_2": "Substitute pork with tofu or seitan."
+    },
+
+    "preparation": {
+      "prep_1": "1. Sauté garlic and onion in oil until golden brown.",
+      "prep_2": "2. Add pork and cook until browned.",
+      "prep_3": "3. Add shrimp paste, followed by taro leaves and coconut milk. Simmer until leaves are tender."
+    },
+
+    "time": "45 minutes",
+    "size": " 4-6",
+    "instruction": {
+      "instruction_1": "Refrigerate in an airtight container for up to 3 days.",
+      "instruction_2": "Reheat on the stovetop, adding a bit of coconut milk if needed."
+    },
+
+    "note": "Adjust shrimp paste according to taste preference."
+  },
+
+  {
+    "id": 4,
+
+    "name": "Pork Binagoongan",
+    "type": "Pork",
+    "skill": "Beginner",
+    "flavor": "Salty",
+    "allergenInformation": "Shrimp paste (Bagoong)",
+
+    "images": {
+      "image1": "/assets/pork_binagoongan_landing.jpg",
+      "image2": "/img/pork.png"
+    },
+
+    "filters": {
+      "allergens1": "Shrimp",
+      "allergens2": "",
+      "type": "Vegetable",
+      "skills": "Beginner",
+      "flavors1": "Salty",
+      "flavors2": ""
+    },
+
+    "nutrition": {
+      "calories": "350-400",
+      "protein": "20-25g",
+      "carbohydrates": "10-15g",
+      "fat": "25-30g"
+    },
+
+    "ingredients": {
+      "ingredient_1": "1/2 kg pork belly, cubed",
+      "ingredient_2": "1 cup bagoong (shrimp paste)",
+      "ingredient_3": "1 onion, sliced",
+      "ingredient_4": "3 tomatoes, chopped",
+      "ingredient_5": "2 tablespoons vinegar",
+      "ingredient_6": "2 tablespoons sugar",
+      "ingredient_7": "3 cloves garlic, minced"
+    },
+
+    "alternative": {
+      "alt_1": "Vegan bagoong or miso for a vegetarian version.",
+      "alt_2": "Substitute pork with eggplant or mushrooms."
+    },
+
+    "preparation": {
+      "prep_1": "1. Sauté garlic, onion, and tomatoes until soft.",
+      "prep_2": "2. Add pork and cook until browned.",
+      "prep_3": "3. Stir in bagoong, vinegar, and sugar. Simmer until pork is tender."
+    },
+
+    "time": "45 minutes",
+    "size": "4-6",
+    "instruction": {
+      "instruction_1": "Store in an airtight container in the refrigerator for up to 3 days.",
+      "instruction_2": "Reheat on the stovetop, adding a bit of water if needed."
+    },
+
+    "note": "Adjust sugar and vinegar to balance sweetness and acidity."
+  },
+
+  {
+    "id": 5,
+
+    "name": "Pancit Malabon",
+    "type": "Pancit",
+    "skill": "Intermediate",
+    "flavor": "Slightly Sweet & Salty",
+    "allergenInformation": "Fish (tinapa), pork (chicharron)",
+
+    "images": {
+      "image1": "../assets/pancit_malabon_landing.jpg",
+      "image2": "../img/pancit.png"
+    },
+
+    "filters": {
+      "allergens": "Fish",
+      "allergens1": "Pork",
+      "type": "Pancit",
+      "skills": "Intermediate",
+      "flavors1": "Slightly Sweet",
+      "flavors2": "Salty"
+    },
+
+    "nutrition": {
+      "calories": " Calories -> 350-400",
+      "protein": " Protein -> 15-20g",
+      "carbohydrates": "Carbohydrates -> 30-40g",
+      "fat": " Fat -> 15-20g"
+    },
+
+    "ingredients": {
+      "ingredient_1": "250g rice noodles (bihon)",
+      "ingredient_2": "200g cooked pork, sliced",
+      "ingredient_3": "200g cooked shrimp, peeled",
+      "ingredient_4": "1 cup flaked smoked fish (tinapa)",
+      "ingredient_5": "1 cup chicharron (pork cracklings), crushed",
+      "ingredient_6": "2 boiled eggs, sliced",
+      "ingredient_7": "1/2 cup annatto (achuete) oil",
+      "ingredient_8": "Green onions and calamansi for garnish"
+    },
+
+    "alternative": {
+      "alt_1": "Substitute smoked fish (tinapa) with tofu or tempeh for a vegetarian version.",
+      "alt_2": "Use vegan chicharron or omit for a vegetarian option."
+    },
+
+    "preparation": {
+      "prep_1": "1. Cook noodles according to package instructions.",
+      "prep_2": "2. Toss noodles with annatto oil, pork, shrimp, tinapa, and chicharron.",
+      "prep_3": "3. Garnish with boiled eggs, green onions, and calamansi."
+    },
+
+    "time": "30 minutes",
+    "size": "4-6",
+    "instruction": {
+      "instruction_1": "Refrigerate in an airtight container for up to 2 days.",
+      "instruction_2": "Reheat in a wok or skillet, adding a splash of water if needed."
+    },
+
+    "note": "Elevate the flavors of Pancit Malabon by adding a squeeze of calamansi or lemon just before serving. This citrusy burst enhances the overall taste and complements the richness of the dish. Garnish with finely chopped fresh cilantro for an aromatic touch. Additionally, you can serve it with a side of crushed chicharron (pork cracklings) for added texture. This traditional Filipino noodle dish is a delightful medley of savory and zesty notes."
+  },
+
+  {
+    "id": 6,
+
+    "name": "Adobong Pusit",
+    "type": "Seafood",
+    "skill": "Beginner",
+    "flavor": "Sour",
+    "allergenInformation": "None",
+
+    "images": {
+      "image1": "../assets/adobong_pusit_landing.jpg",
+      "image2": "../img/adobong_pusit.png"
+    },
+
+    "filters": {
+      "allergens1": "",
+      "allergens2": "",
+      "type": "Seafood",
+      "skills": "Beginner",
+      "flavors1": "Sour",
+      "flavors2": ""
+    },
+
+    "nutrition": {
+      "calories": "200-250",
+      "protein": "15-20g",
+      "carbohydrates": "5-10g",
+      "fat": "10-15g"
+    },
+
+    "ingredients": {
+      "ingredient_1": "1 kg squid, cleaned and sliced",
+      "ingredient_2": "1 onion, chopped",
+      "ingredient_3": "4 cloves garlic, minced",
+      "ingredient_4": "1/4 cup soy sauce",
+      "ingredient_5": "1/4 cup vinegar",
+      "ingredient_6": "1 bay leaf",
+      "ingredient_7": "1 teaspoon black peppercorns"
+    },
+
+    "alternative": {
+      "alt_1": "Substitute squid with mushrooms or tofu for a vegetarian version.",
+      "alt_2": "Coconut aminos or soy sauce as a fish sauce alternative."
+    },
+
+    "preparation": {
+      "prep_1": "1. Sauté garlic and onion until softened.",
+      "prep_2": "2. Add squid, soy sauce, vinegar, bay leaf, and peppercorns. Simmer until squid is cooked."
+    },
+
+    "time": "30 minutes",
+    "size": "4-6",
+    "instruction": {
+      "instruction_1": "Refrigerate in an airtight container for up to 2 days.",
+      "instruction_2": "Reheat on the stovetop or in the microwave."
+    },
+
+    "note": "Adjust soy sauce and vinegar to achieve your desired level of saltiness and acidity."
+  },
+
+  {
+    "id": 7,
+
+    "name": "Dinuguan",
+    "type": "Pork",
+    "skill": "Intermediate",
+    "flavor": "Sour",
+    "allergenInformation": "Pork Blood",
+
+    "images": {
+      "image1": "../asssets/dinguan_landing.jpg",
+      "image2": "../img/dinuguan.png"
+    },
+
+    "filters": {
+      "allergens1": "Pork",
+      "allergens2": "",
+      "type": "Pork",
+      "skills": "Intermediate",
+      "flavors1": "Sour",
+      "flavors2": ""
+    },
+
+    "nutrition": {
+      "calories": "300-350",
+      "protein": "20-25g",
+      "carbohydrates": "10-15g",
+      "fat": "20-25g"
+    },
+
+    "ingredients": {
+      "ingredient_1": "1/2 kg pork belly, diced",
+      "ingredient_2": "1 cup pork blood",
+      "ingredient_3": "1 onion, chopped",
+      "ingredient_4": "3 cloves garlic, minced",
+      "ingredient_5": "2 tablespoons vinegar",
+      "ingredient_6": "3-4 green chili peppers"
+    },
+
+    "alternative": {
+      "alt_1": "Plant-based blood substitute or omit for a vegetarian version.",
+      "alt_2": "Substitute pork with mushrooms or tofu."
+    },
+
+    "preparation": {
+      "prep_1": "1. Sauté garlic and onion until softened.",
+      "prep_2": "2. Add pork, cook until browned.",
+      "prep_3": "3. Stir in pork blood, vinegar, and green chili peppers. Simmer until pork is tender."
+    },
+
+    "time": "1 hour",
+    "size": "4-6",
+    "instruction": {
+      "instruction_1": "Refrigerate in an airtight container for up to 2 days.",
+      "instruction_2": "Reheat on the stovetop, adding a bit of water if needed."
+    },
+
+    "note": "To balance the richness of Dinuguan, consider adding a splash of coconut milk towards the end of the cooking process. This not only imparts a subtle sweetness but also contributes a creamy texture to the dish. Adjust the amount of vinegar and sugar accordingly to achieve the desired level of tanginess and sweetness. Garnish with chopped green onions for a fresh contrast. Serve this flavorful and hearty stew with puto (steamed rice cakes) for a traditional Filipino experience."
+  },
+
+  {
+    "id": 8,
+
+    "name": "Gising-Gising",
+    "type": "Pork and Vegetable",
+    "skill": "Intermediate",
+    "flavor": "Spicy",
+    "allergenInformation": "Shrimp paste (Bagoong)",
+
+    "images": {
+      "image1": "../assets/gising_gising.jpg",
+      "image2": "../img/gising.png"
+    },
+
+    "filters": {
+      "allergens1": "Shrimp",
+      "allergens2": "",
+      "type": "Pork and Vegetable",
+      "skills": "Intermediate",
+      "flavors1": "Spicy",
+      "flavors2": ""
+    },
+
+    "nutrition": {
+      "calories": "250-350",
+      "protein": "15-20g",
+      "carbohydrates": "10-15g",
+      "fat": "20-25g"
+    },
+
+    "ingredients": {
+      "ingredient_1": "1/2 kg ground pork",
+      "ingredient_2": "2 cups coconut milk",
+      "ingredient_3": "1 2 cups snake beans (sitaw), sliced",
+      "ingredient_4": "2 cups kangkong (water spinach), chopped",
+      "ingredient_5": "3 tablespoons shrimp paste (bagoong)",
+      "ingredient_6": "3 cloves garlic, minced",
+      "ingredient_7": "1 onion, chopped",
+      "ingredient_8": "2-3 red chili peppers, sliced",
+      "ingredient_9": "2 tablespoons oil"
+    },
+
+    "alternative": {
+      "alt_1": "Vegan bagoong or miso for a vegetarian version.",
+      "alt_2": "Substitute pork with mushrooms or tofu."
+    },
+
+    "preparation": {
+      "prep_1": "1. Sauté garlic and onion in oil until fragrant.",
+      "prep_2": "2. Add ground pork and cook until browned.",
+      "prep_3": "3. Stir in shrimp paste, coconut milk, and chili peppers. Simmer until the vegetables are tender.",
+      "prep_4": "4. Add snake beans, green beans, and kangkong. Cook until vegetables are cooked but still crisp."
+    },
+
+    "time": "30 minutes",
+    "size": "4-6",
+    "instruction": {
+      "instruction_1": "Refrigerate in an airtight container for up to 2 days.",
+      "instruction_2": "Reheat on the stovetop, adding a bit of coconut milk if needed."
+    },
+
+    "note": " For an extra layer of richness, you can add a handful of grated young coconut (buko) to the Gising-Gising just before serving. This imparts a subtle sweetness and a delightful texture, balancing the spiciness of the dish. Adjust the shrimp paste according to your taste preference. Garnish with chopped cilantro for a burst of freshness. Serve piping hot alongside steamed rice for a comforting and flavorful meal."
+  },
+
+  {
+    "id": 9,
+
+    "name": "Bicol Express",
+    "type": "Pork",
+    "skill": "Intermediate",
+    "flavor": "Spicy",
+    "allergenInformation": "None",
+
+    "images": {
+      "image1": "../assets/bicol_express_landing.jpg",
+      "image2": "../img/bicol.png"
+    },
+
+    "filters": {
+      "allergens1": "",
+      "allergens2": "",
+      "type": "Pork ",
+      "skills": "Intermediate",
+      "flavors": "Spicy"
+    },
+
+    "nutrition": {
+      "calories": "350-400",
+      "protein": "20-25g",
+      "carbohydrates": "10-15g",
+      "fat": "15-30g"
+    },
+
+    "ingredients": {
+      "ingredient_1": "1/2 kg ground pork, sliced",
+      "ingredient_2": "1 cup coconut milk",
+      "ingredient_3": "1/2 cup shrimp paste (bagoong)",
+      "ingredient_4": "3-4 red chili peppers, sliced",
+      "ingredient_5": "1 onion, chopped",
+      "ingredient_6": "3 cloves garlic, minced"
+    },
+
+    "alternative": {
+      "alt_1": "Substitute pork with mushrooms or tofu for a vegetarian version.",
+      "alt_2": "Adjust the number of chili peppers for desired spiciness."
+    },
+
+    "preparation": {
+      "prep_1": "1. Sauté garlic and onion until softened.",
+      "prep_2": "2. Add pork, cook until browned.",
+      "prep_3": "3. Stir in coconut milk, shrimp paste, and chili peppers. Simmer until pork is tender."
+    },
+
+    "time": "45 minutes",
+    "size": "4-6",
+    "instruction": {
+      "instruction_1": "Refrigerate in an airtight container for up to 2 days.",
+      "instruction_2": "Reheat on the stovetop or in the microwave."
+    },
+
+    "note": "Adjust the number of chili peppers to control the spiciness of the dish."
+  },
+
+  {
+    "id": 10,
+
+    "name": "Kare-Kareng Buntot ng Baka",
+    "type": "Beef",
+    "skill": "Advanced",
+    "flavor": "Salty & Slightly Sweet",
+    "allergenInformation": "Peanuts and Fish",
+
+    "images": {
+      "image1": "../assets/kare_kareng_buntot_ng_baka_landing.jpg",
+      "image2": "../img/kare-kare.png"
+    },
+
+    "filters": {
+      "allergens1": "Peanuts",
+      "allergens2": "Fish",
+      "type": "Beef",
+      "skills": "Advanced",
+      "flavors1": "Salty",
+      "flavors2": "Slightly Sweet"
+    },
+
+    "nutrition": {
+      "calories": "400-450",
+      "protein": "20-25g",
+      "carbohydrates": "15-20g",
+      "fat": "30-35g"
+    },
+
+    "ingredients": {
+      "ingredient_1": "1 kg ox tail, cut into serving pieces",
+      "ingredient_2": "2 cups tripe, cleaned and sliced",
+      "ingredient_3": "1/2 cup peanut butter",
+      "ingredient_4": "3-4 red chili peppers, sliced",
+      "ingredient_5": "2 eggplants, sliced",
+      "ingredient_6": "1 bundle string beans, cut into 2-inch lengths",
+      "ingredient_7": "1 banana heart, sliced",
+      "ingredient_8": "2 tablespoons annatto seeds (achuete)",
+      "ingredient_9": "1 onion, chopped",
+      "ingredients_10": "3 cloves garlic, minced",
+      "ingredients_11": "4 cups water",
+      "ingredients_12": "Fish sauce and pepper to taste"
+    },
+
+    "alternative": {
+      "alt_1": "Substitute peanuts with almond butter or sunflower seed butter.",
+      "alt_2": "Use vegetable broth instead of water for a vegetarian version."
+    },
+
+    "preparation": {
+      "prep_1": "1. Boil oxtail and tripe in water until tender.",
+      "prep_2": "2. Sauté garlic and onion until soft, add annatto seeds for color.",
+      "prep_3": "3. Add peanut butter, oxtail, and tripe. Simmer until meat is cooked.",
+      "prep_4": "4. Add vegetables and simmer until they are tender."
+    },
+
+    "time": "2 hours",
+    "size": "6-8 ",
+    "instruction": {
+      "instruction_1": "Refrigerate in an airtight container for up to 3 days.",
+      "instruction_2": "Reheat on the stovetop, adding a bit of water if needed."
+    },
+
+    "note": "Serve with bagoong (shrimp paste) on the side. Adjust peanut butter and fish sauce to taste."
+  }
+]
