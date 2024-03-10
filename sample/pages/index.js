@@ -26,7 +26,6 @@ function Home() {
       </Head>
 
       <Header searchTerm={searchTerm} handleChange={handleChange} />
-      
       {SearchedRecipes.map((recipe) => (
         <RecipeHome key={recipe.id} recipe={recipe} />
       ))}

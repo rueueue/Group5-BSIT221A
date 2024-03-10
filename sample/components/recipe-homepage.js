@@ -7,7 +7,7 @@ export default function RecipeHome({ recipe }) {
         <div className="recipe-card" key={recipe.id}>
           <img
             className="recipe-card-img"
-            src={recipe.images.image2}
+            src={recipe.images.image1}
             alt={recipe.name}
           />
           <div className="recipe-card1">
