@@ -3,7 +3,8 @@ import Link from "next/link";
 export default function RecipeHome({ recipe }) {
   return (
     <>
-      <div className="recipe-card-list1">
+     <div  class="recipe-card-container">
+        <div className="recipe-card-list1">
         <div className="recipe-card" key={recipe.id}>
           <img
             className="recipe-card-img"
@@ -13,8 +14,8 @@ export default function RecipeHome({ recipe }) {
           <div className="recipe-card1">
             <p className="protein-type-label">{recipe.type}</p>
             <p className="recipe-title-style">{recipe.name}</p>
-            <Link href={`/${recipe.id}`}>
-              <button className="recipe-button">view recipe</button>
+            <Link className="recipe-button" href={`/${recipe.id}`}>
+              <button>view recipe</button>
             </Link>
             <p className="recipe-info">
               {recipe.time} | {recipe.size}
@@ -22,6 +23,8 @@ export default function RecipeHome({ recipe }) {
           </div>
         </div>
       </div>
+     </div>
+    
     </>
   );
 }

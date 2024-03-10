@@ -1,5 +1,5 @@
-import"@/styles/recipe.css";
-import "@/styles/globals.css";
+import"@/styles/recipe.scss";
+import "@/styles/style.scss";
 
 function App({ Component, pageProps }) {
   return(

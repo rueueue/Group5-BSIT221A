@@ -10,6 +10,14 @@
       "image1": "../assets/chicken_tinola_landing.jpg",
       "image2": "../img/tinola.png"
     },
+    "filters": {
+      "allergens1": "Fish",
+      "allergens2": "",
+      "type": "Chicken",
+      "skills": "Beginner",
+      "flavors1": "Salty",
+      "flavors2": ""
+    },
 
     "nutrition": {
       "calories": "250-300",
@@ -19,12 +27,12 @@
     },
 
     "ingredients": {
-      "ingredient_1": "1 kg chicken, cut into serving pieces",
+      "ingredient_1": "1 kg chicken",
       "ingredient_2": "1 tablespoon oil",
-      "ingredient_3": "1 onion, sliced",
-      "ingredient_4": "2 cloves garlic, minced",
-      "ingredient_5": "1 thumb-sized ginger, julienned",
-      "ingredient_6": "1 green papaya, sliced",
+      "ingredient_3": "1 onion,",
+      "ingredient_4": "2 cloves garlic",
+      "ingredient_5": "1 thumb-sized ginger",
+      "ingredient_6": "1 green papaya",
       "ingredient_7": "1 cup malunggay leaves",
       "ingredient_8": "1 liter water",
       "ingredient_9": "Fish sauce and pepper to taste"
@@ -65,6 +73,14 @@
       "image2": "../img/bangus.png"
     },
 
+    "filters": {
+      "allergens1": "Fish",
+      "allergens2": "",
+      "type": "Seafood",
+      "skills": "Intermediate",
+      "flavors1": "Salty",
+      "flavors2": "Slightly Spicy"
+    },
 
     "nutrition": {
       "calories": "300-350",
@@ -74,7 +90,7 @@
     },
 
     "ingredients": {
-      "ingredient_1": "2 boneless bangus (milkfish), flaked",
+      "ingredient_1": "2 boneless bangus",
       "ingredient_2": "1 onion, chopped",
       "ingredient_3": "3 green chili peppers, chopped",
       "ingredient_4": "3 cloves garlic, minced",
@@ -119,6 +135,15 @@
       "image2": "../img/laing.png"
     },
 
+    "filters": {
+      "allergens1": "Shrimp",
+      "allergens2": "",
+      "type": "Vegetable",
+      "skills": "Intermediate",
+      "flavors1": "Spicy",
+      "flavors2": ""
+    },
+
     "nutrition": {
       "calories": "300-350",
       "protein": "15-20g",
@@ -127,10 +152,10 @@
     },
 
     "ingredients": {
-      "ingredient_1": "2 cups dried taro leaves",
-      "ingredient_2": "1/2 kg pork belly, sliced",
-      "ingredient_3": "3 tablespoons shrimp paste (bagoong)",
-      "ingredient_4": "2 cups coconut milk",
+      "ingredient_1": "2 cups dried of taro leaves",
+      "ingredient_2": "1/2 of kilogram pork belly, sliced",
+      "ingredient_3": "3 tablespoons shrimp paste ",
+      "ingredient_4": "2 cups  coconut milk",
       "ingredient_5": "4 cloves garlic, minced",
       "ingredient_6": "1 onion, chopped",
       "ingredient_7": "2 tablespoons oil"
@@ -171,6 +196,14 @@
       "image2": "/img/pork.png"
     },
 
+    "filters": {
+      "allergens1": "Shrimp",
+      "allergens2": "",
+      "type": "Vegetable",
+      "skills": "Beginner",
+      "flavors1": "Salty",
+      "flavors2": ""
+    },
 
     "nutrition": {
       "calories": "350-400",
@@ -224,6 +257,14 @@
       "image2": "../img/pancit.png"
     },
 
+    "filters": {
+      "allergens": "Fish",
+      "allergens1": "Pork",
+      "type": "Pancit",
+      "skills": "Intermediate",
+      "flavors1": "Slightly Sweet",
+      "flavors2": "Salty"
+    },
 
     "nutrition": {
       "calories": "350-400",
@@ -233,20 +274,21 @@
     },
 
     "ingredients": {
-      "ingredient_1": "250g rice noodles (bihon)",
+      "ingredient_1": "250g rice noodles",
       "ingredient_2": "200g cooked pork, sliced",
       "ingredient_3": "200g cooked shrimp, peeled",
       "ingredient_4": "1 cup flaked smoked fish (tinapa)",
-      "ingredient_5": "1 cup chicharron (pork cracklings), crushed",
+      "ingredient_5": "1 cup of chicharron, crushed",
       "ingredient_6": "2 boiled eggs, sliced",
-      "ingredient_7": "1/2 cup annatto (achuete) oil",
-      "ingredient_8": "Green onions and calamansi for garnish"
+      "ingredient_7": "1/2 cup annatto of (achuete) oil",
+      "ingredient_8": "Green onions and calamansi"
     },
 
     "alternative": {
-      "alt_1": "Substitute smoked fish (tinapa) with tofu or tempeh for a vegetarian version.",
-      "alt_2": "Use vegan chicharron or omit for a vegetarian option."
+      "alt_1": "Use vegan  chicharron  for a vegetarian option.",
+      "alt_2": "Substitute smoked fish (tinapa) with tofu or tempeh for a vegetarian version."
     },
+  
 
     "preparation": {
       "prep_1": "1. Cook noodles according to package instructions.",
@@ -278,7 +320,15 @@
       "image2": "../img/adobong_pusit.png"
     },
 
-    
+    "filters": {
+      "allergens1": "",
+      "allergens2": "",
+      "type": "Seafood",
+      "skills": "Beginner",
+      "flavors1": "Sour",
+      "flavors2": ""
+    },
+
     "nutrition": {
       "calories": "200-250",
       "protein": "15-20g",
@@ -330,6 +380,14 @@
       "image2": "../img/dinuguan.png"
     },
 
+    "filters": {
+      "allergens1": "Pork",
+      "allergens2": "",
+      "type": "Pork",
+      "skills": "Intermediate",
+      "flavors1": "Sour",
+      "flavors2": ""
+    },
 
     "nutrition": {
       "calories": "300-350",
@@ -339,10 +397,10 @@
     },
 
     "ingredients": {
-      "ingredient_1": "1/2 kg pork belly, diced",
-      "ingredient_2": "1 cup pork blood",
+      "ingredient_1": "1/2 kilogram of pork belly, diced",
+      "ingredient_2": "1 cup of pork blood",
       "ingredient_3": "1 onion, chopped",
-      "ingredient_4": "3 cloves garlic, minced",
+      "ingredient_4": "3 cloves of garlic, minced",
       "ingredient_5": "2 tablespoons vinegar",
       "ingredient_6": "3-4 green chili peppers"
     },
@@ -382,6 +440,15 @@
       "image2": "../img/gising.png"
     },
 
+    "filters": {
+      "allergens1": "Shrimp",
+      "allergens2": "",
+      "type": "Pork and Vegetable",
+      "skills": "Intermediate",
+      "flavors1": "Spicy",
+      "flavors2": ""
+    },
+
     "nutrition": {
       "calories": "250-350",
       "protein": "15-20g",
@@ -392,9 +459,9 @@
     "ingredients": {
       "ingredient_1": "1/2 kg ground pork",
       "ingredient_2": "2 cups coconut milk",
-      "ingredient_3": "1 2 cups snake beans (sitaw), sliced",
-      "ingredient_4": "2 cups kangkong (water spinach), chopped",
-      "ingredient_5": "3 tablespoons shrimp paste (bagoong)",
+      "ingredient_3": "1 2 cups snake beans, sliced",
+      "ingredient_4": "2 cups kangkong, chopped",
+      "ingredient_5": "3 tablespoons of shrimp paste",
       "ingredient_6": "3 cloves garlic, minced",
       "ingredient_7": "1 onion, chopped",
       "ingredient_8": "2-3 red chili peppers, sliced",
@@ -437,6 +504,13 @@
       "image2": "../img/bicol.png"
     },
 
+    "filters": {
+      "allergens1": "",
+      "allergens2": "",
+      "type": "Pork ",
+      "skills": "Intermediate",
+      "flavors": "Spicy"
+    },
 
     "nutrition": {
       "calories": "350-400",
@@ -446,9 +520,9 @@
     },
 
     "ingredients": {
-      "ingredient_1": "1/2 kg ground pork, sliced",
+      "ingredient_1": "1/2 kilogram ground pork, sliced",
       "ingredient_2": "1 cup coconut milk",
-      "ingredient_3": "1/2 cup shrimp paste (bagoong)",
+      "ingredient_3": "1/2 cup shrimp paste",
       "ingredient_4": "3-4 red chili peppers, sliced",
       "ingredient_5": "1 onion, chopped",
       "ingredient_6": "3 cloves garlic, minced"
@@ -489,6 +563,14 @@
       "image2": "../img/kare-kare.png"
     },
 
+    "filters": {
+      "allergens1": "Peanuts",
+      "allergens2": "Fish",
+      "type": "Beef",
+      "skills": "Advanced",
+      "flavors1": "Salty",
+      "flavors2": "Slightly Sweet"
+    },
 
     "nutrition": {
       "calories": "400-450",
@@ -498,14 +580,14 @@
     },
 
     "ingredients": {
-      "ingredient_1": "1 kg ox tail, cut into serving pieces",
+      "ingredient_1": "1 kg ox tail, cut into pieces",
       "ingredient_2": "2 cups tripe, cleaned and sliced",
       "ingredient_3": "1/2 cup peanut butter",
       "ingredient_4": "3-4 red chili peppers, sliced",
       "ingredient_5": "2 eggplants, sliced",
-      "ingredient_6": "1 bundle string beans, cut into 2-inch lengths",
+      "ingredient_6": "1 bundle string beans",
       "ingredient_7": "1 banana heart, sliced",
-      "ingredient_8": "2 tablespoons annatto seeds (achuete)",
+      "ingredient_8": "2 tablespoons annatto seeds",
       "ingredient_9": "1 onion, chopped",
       "ingredients_10": "3 cloves garlic, minced",
       "ingredients_11": "4 cups water",
