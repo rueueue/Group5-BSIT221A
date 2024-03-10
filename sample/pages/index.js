@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import Header from "@/components/header";
 import RecipeHome from "@/components/recipe-homepage";
+import Filter from "@/components/filters";
 import recipes from "@/components/recipe.json";
 import fs from "fs";
 import path from "path";
@@ -26,6 +27,7 @@ function Home() {
       </Head>
 
       <Header searchTerm={searchTerm} handleChange={handleChange} />
+      <Filter />
       {SearchedRecipes.map((recipe) => (
         <RecipeHome key={recipe.id} recipe={recipe} />
       ))}

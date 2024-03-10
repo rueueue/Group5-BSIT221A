@@ -4,18 +4,14 @@ import Link from "next/link";
 function RecipePage({ recipe }) {
   const ID = parseInt(recipe.id);
   const chosenRecipe = recipes.find((r) => r.id === ID);
+
+  if (!chosenRecipe) {
+    return <div>Recipe not found!</div>;
+  }
   return (
     <>
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="recipe_styles.css" />
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossOrigin="anonymous"
-        referrerPolicy="no-referrer"
-      />
       <title>Recipes</title>
       <div className="navbar">
         <Link href="/" passHref>
@@ -97,15 +93,10 @@ function RecipePage({ recipe }) {
         </div>
         <div className="ingr-info">
           <ul>
-            <li>{chosenRecipe.ingredients.ingredient_1}</li>
-            <li>{chosenRecipe.ingredients.ingredient_2}</li>
-            <li>{chosenRecipe.ingredients.ingredient_3}</li>
-            <li>{chosenRecipe.ingredients.ingredient_4}</li>
-            <li>{chosenRecipe.ingredients.ingredient_5}</li>
-            <li>{chosenRecipe.ingredients.ingredient_6}</li>
-            <li>{chosenRecipe.ingredients.ingredient_7}</li>
-            <li>{chosenRecipe.ingredients.ingredient_8}</li>
-            <li>{chosenRecipe.ingredients.ingredient_9}</li>
+            {Object.values(chosenRecipe.ingredients).map((ingredient, index) => (
+              <li key = {index}>{ingredient}</li>
+            )
+            )}
           </ul>
         </div>
       </div>
@@ -114,9 +105,11 @@ function RecipePage({ recipe }) {
           <h2>alternative ingredients</h2>
         </div>
         <div className="alt-info">
-          <ul>
-            <li>{chosenRecipe.alternative.alt_1}</li>
-            <li>{chosenRecipe.alternative.alt_2}</li>
+        <ul>
+            {Object.values(chosenRecipe.alternative).map((alt, index) => (
+              <li key = {index}>{alt}</li>
+            )
+            )}
           </ul>
         </div>
       </div>
@@ -128,11 +121,11 @@ function RecipePage({ recipe }) {
           <h2>preparation</h2>
         </div>
         <div className="prep-info">
-          <ul>
-            <li>{chosenRecipe.preparation.prep_1}</li>
-            <li>{chosenRecipe.preparation.prep_2}</li>
-            <li>{chosenRecipe.preparation.prep_3}</li>
-            <li>{chosenRecipe.preparation.prep_4}</li>
+        <ul>
+            {Object.values(chosenRecipe.preparation).map((prep, index) => (
+              <li key = {index}>{prep}</li>
+            )
+            )}
           </ul>
         </div>
       </div>
@@ -141,9 +134,11 @@ function RecipePage({ recipe }) {
           <h2>storage and reheating instruction</h2>
         </div>
         <div className="stg-info">
-          <ul>
-            <li>{chosenRecipe.instruction.instruction_1}</li>
-            <li>{chosenRecipe.instruction.instruction_2}</li>
+        <ul>
+            {Object.values(chosenRecipe.instruction).map((info, index) => (
+              <li key = {index}>{info}</li>
+            )
+            )}
           </ul>
         </div>
       </div>
