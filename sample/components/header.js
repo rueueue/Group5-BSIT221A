@@ -29,7 +29,7 @@ function Header({ searchTerm, handleChange }) {
                 <button onClick={handleShowRecipeClick} className={styles['custom-recipe-button']}>
                   Show Recipe
                 </button>
-                <p>pls</p>
+
               </div>
             </div>
           </div>
