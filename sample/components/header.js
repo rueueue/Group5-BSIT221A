@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRouter } from 'next/router';
-import Search from '@/components/search';
+import Search from './search';
 import styles from '@/styles/custom.module.scss'
 
 function Header({ searchTerm, handleChange }) {
@@ -24,7 +24,7 @@ function Header({ searchTerm, handleChange }) {
                 <p className="featured-title">Featured</p>
                 <p className="highlighted-text">Adobong</p>
                 <p className="highlighted-text1">Pusit</p>
-                <p>pls</p>
+                <p>trytry</p>
               </div>
               <div className="recipe-button-container">
                 <button onClick={handleShowRecipeClick} className={styles['custom-recipe-button']}>
