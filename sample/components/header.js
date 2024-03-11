@@ -24,6 +24,7 @@ function Header({ searchTerm, handleChange }) {
                 <p className="featured-title">Featured</p>
                 <p className="highlighted-text">Adobong</p>
                 <p className="highlighted-text1">Pusit</p>
+                <p>pls</p>
               </div>
               <div className="recipe-button-container">
                 <button onClick={handleShowRecipeClick} className={styles['custom-recipe-button']}>
