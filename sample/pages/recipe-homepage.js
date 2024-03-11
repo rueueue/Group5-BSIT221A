@@ -21,8 +21,8 @@ export default function RecipeHome({ recipe }) {
             <p className={styles["protein-type-label-custom"]}>{recipe.type}</p>
             <p className={styles["recipe-title-style-custom"]}>{recipe.name}</p>
             <Link className={styles["recipe-button-custom"]} href={`/${recipe.id}`}>
-              <Button class="recipe-button">view recipe</Button>
-            </Link>
+              <button class="recipe-button">view recipe</button>
+              </Link>
             <p className={styles["recipe-info-custom"]}>
               {recipe.time} | {recipe.size}
             </p>

@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import RecipePage from "@/components/recipe";
+import RecipePage from "@/pages/recipe";
 
 const RecipeContent = () => {
   const router = useRouter();

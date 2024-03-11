@@ -1,4 +1,4 @@
-import recipes from "./recipe.json";
+import recipes from "@/components/recipe.json";
 import Link from "next/link";
 
 function RecipePage({ recipe }) {

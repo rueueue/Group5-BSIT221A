@@ -24,7 +24,6 @@ function Header({ searchTerm, handleChange }) {
                 <p className="featured-title">Featured</p>
                 <p className="highlighted-text">Adobong</p>
                 <p className="highlighted-text1">Pusit</p>
-                <p>trytry</p>
               </div>
               <div className="recipe-button-container">
                 <button onClick={handleShowRecipeClick} className={styles['custom-recipe-button']}>
@@ -34,13 +33,12 @@ function Header({ searchTerm, handleChange }) {
             </div>
           </div>
         </div>
-        <div className="recipe-filter-container">
-          <div className="flex-container-with-filters">
+        <div className="recipe-search-container">
+        
             <Search searchTerm={searchTerm} handleChange={handleChange} />
           </div>
         </div>
-      </div>
-    </div>
+        </div>
   );
 }
 

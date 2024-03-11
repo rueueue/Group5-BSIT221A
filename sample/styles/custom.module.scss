@@ -39,17 +39,19 @@
 
 .protein-type-label-custom {
   flex: 0 0 auto;
-  font: var(--font-weight-500) var(--font-size-10) Inter;
+  font: var(--font-weight-500) var(--font-size-10) Poppins;
   color: var(--color-darkgrey-46ff8a27);
   white-space: pre-wrap;
   font-family: "Poppins", sans-serif;
-  padding-top: 5px;
+  padding-top: -40px;
 }
 
 .recipe-title-style-custom {
   flex: 0 0 auto;
-  margin-top: -5px;
-  font: var(--font-weight-700) var(--font-size-20) Poppins;
+  margin-top: -15px;
+  margin-bottom: -10px;
+  font-size: 30px;
+  font-weight: 600;
   color: var(--color-darkslategrey-9b95c861);
   white-space: pre-wrap;
   font-family: "Poppins", sans-serif;
@@ -57,8 +59,8 @@
 
 .recipe-info-custom {
   flex: 0 0 auto;
-  margin-top: -5px;
-  font: var(--font-weight-600) var(--font-size-10) Inter;
+  padding-bottom: 10px;
+  font: var(--font-weight-600) var(--font-size-10) Poppins;
   color: var(--color-chocolate-23a323b2);
   white-space: pre-wrap;
   font-family: "Poppins", sans-serif;

@@ -10,14 +10,6 @@
       "image1": "../assets/chicken_tinola_landing.jpg",
       "image2": "../img/tinola.png"
     },
-    "filters": {
-      "allergens1": "Fish",
-      "allergens2": "",
-      "type": "Chicken",
-      "skills": "Beginner",
-      "flavors1": "Salty",
-      "flavors2": ""
-    },
 
     "nutrition": {
       "calories": "250-300",
@@ -73,15 +65,6 @@
       "image2": "../img/bangus.png"
     },
 
-    "filters": {
-      "allergens1": "Fish",
-      "allergens2": "",
-      "type": "Seafood",
-      "skills": "Intermediate",
-      "flavors1": "Salty",
-      "flavors2": "Slightly Spicy"
-    },
-
     "nutrition": {
       "calories": "300-350",
       "protein": "25-30g",
@@ -133,15 +116,6 @@
     "images": {
       "image1": "../assets/laing_landing.jpg",
       "image2": "../img/laing.png"
-    },
-
-    "filters": {
-      "allergens1": "Shrimp",
-      "allergens2": "",
-      "type": "Vegetable",
-      "skills": "Intermediate",
-      "flavors1": "Spicy",
-      "flavors2": ""
     },
 
     "nutrition": {
@@ -196,15 +170,6 @@
       "image2": "/img/pork.png"
     },
 
-    "filters": {
-      "allergens1": "Shrimp",
-      "allergens2": "",
-      "type": "Vegetable",
-      "skills": "Beginner",
-      "flavors1": "Salty",
-      "flavors2": ""
-    },
-
     "nutrition": {
       "calories": "350-400",
       "protein": "20-25g",
@@ -255,15 +220,6 @@
     "images": {
       "image1": "../assets/pancit_malabon_landing.jpg",
       "image2": "../img/pancit.png"
-    },
-
-    "filters": {
-      "allergens": "Fish",
-      "allergens1": "Pork",
-      "type": "Pancit",
-      "skills": "Intermediate",
-      "flavors1": "Slightly Sweet",
-      "flavors2": "Salty"
     },
 
     "nutrition": {
@@ -320,15 +276,6 @@
       "image2": "../img/adobong_pusit.png"
     },
 
-    "filters": {
-      "allergens1": "",
-      "allergens2": "",
-      "type": "Seafood",
-      "skills": "Beginner",
-      "flavors1": "Sour",
-      "flavors2": ""
-    },
-
     "nutrition": {
       "calories": "200-250",
       "protein": "15-20g",
@@ -380,15 +327,6 @@
       "image2": "../img/dinuguan.png"
     },
 
-    "filters": {
-      "allergens1": "Pork",
-      "allergens2": "",
-      "type": "Pork",
-      "skills": "Intermediate",
-      "flavors1": "Sour",
-      "flavors2": ""
-    },
-
     "nutrition": {
       "calories": "300-350",
       "protein": "20-25g",
@@ -438,15 +376,6 @@
     "images": {
       "image1": "../assets/gising_gising.jpg",
       "image2": "../img/gising.png"
-    },
-
-    "filters": {
-      "allergens1": "Shrimp",
-      "allergens2": "",
-      "type": "Pork and Vegetable",
-      "skills": "Intermediate",
-      "flavors1": "Spicy",
-      "flavors2": ""
     },
 
     "nutrition": {
@@ -504,14 +433,6 @@
       "image2": "../img/bicol.png"
     },
 
-    "filters": {
-      "allergens1": "",
-      "allergens2": "",
-      "type": "Pork ",
-      "skills": "Intermediate",
-      "flavors": "Spicy"
-    },
-
     "nutrition": {
       "calories": "350-400",
       "protein": "20-25g",
@@ -561,15 +482,6 @@
     "images": {
       "image1": "../assets/kare_kareng_buntot_ng_baka_landing.jpg",
       "image2": "../img/kare-kare.png"
-    },
-
-    "filters": {
-      "allergens1": "Peanuts",
-      "allergens2": "Fish",
-      "type": "Beef",
-      "skills": "Advanced",
-      "flavors1": "Salty",
-      "flavors2": "Slightly Sweet"
     },
 
     "nutrition": {
