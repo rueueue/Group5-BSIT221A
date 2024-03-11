@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Head from "next/head";
-import Header from "@/Components/header";
-import RecipeHome from "@/Components/recipe-homepage";
+import Header from "@/components/header";
+import RecipeHome from "@/components/recipe-homepage";
 import recipes from "@/Components/recipe.json";
 import fs from "fs";
 import path from "path";
