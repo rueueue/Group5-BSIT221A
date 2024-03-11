@@ -1,7 +1,6 @@
 import Link from "next/link";
 import styles from '@/styles/custom.module.scss';
-import {Button} from 'semantic-ui-react';
-import "semantic-ui-css/semantic.min.css";
+
 
 
 export default function RecipeHome({ recipe }) {
@@ -21,7 +20,7 @@ export default function RecipeHome({ recipe }) {
             <p className={styles["protein-type-label-custom"]}>{recipe.type}</p>
             <p className={styles["recipe-title-style-custom"]}>{recipe.name}</p>
             <Link className={styles["recipe-button-custom"]} href={`/${recipe.id}`}>
-              <Button class="recipe-button">view recipe</Button>
+              <button class="recipe-button">view recipe</button>
             </Link>
             <p className={styles["recipe-info-custom"]}>
               {recipe.time} | {recipe.size}
