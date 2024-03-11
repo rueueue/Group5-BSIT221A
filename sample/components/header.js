@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRouter } from 'next/router';
-import Search from './search';
+import Search from '@/components/search';
 import styles from '@/styles/custom.module.scss'
 
 function Header({ searchTerm, handleChange }) {
