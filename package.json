@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "sass": "^1.71.1"
+  },
+  "devDependencies": {
+    "@types/expect": "^24.3.0",
+    "expect": "^29.7.0"
   }
 }

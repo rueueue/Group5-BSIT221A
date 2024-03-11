@@ -35,7 +35,6 @@
 
 .recipe-desc{
 
-
     .img3-rcp img{
         width: 100%;
         margin-top: -150px;
@@ -196,6 +195,49 @@
 
 
 @media only screen and (min-width: 768px) and (max-width: 768px){ 
+
+    .title-serve{
+        text-align: center;
+        margin-top: 30px;
+        
+    }
+    
+    .serving{
+        font-size: 20px;
+        
+    }
+    .title{
+        color: #FF5757; 
+        font-size: 30px;
+        font-weight: bold;
+       
+    }
+    
+    .infos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 30px;
+    
+        .info1{
+            margin-left: 100px;
+            font-size: 20px;
+        }
+    
+        .info2{
+            margin-right: 150px;
+            font-size: 25px;
+        }
+        .flav{
+            margin-left: 100px;
+            font-size: 20px;
+        }
+        .flav, .sl, .ai, .ct{
+            font-size: 17px;
+        }
+        
+    }
+
     .navbar .arrow {
         margin: 60px 0 0 60px;
     }
@@ -236,12 +278,12 @@
 
         .nutri-title h2, .ingr-title h2, .alt-title h2 {
             font-weight: normal;
-            font-size: 40px;
+            font-size: 30px;
         }
 
         .nutri-info {
-            margin: 50px 140px 0 10px;
-            font-size: 23px;
+            margin: 50px 100px 0 30px;
+            font-size: 15px;
         }
 
         .ingr-title {
@@ -249,8 +291,8 @@
         }
 
         .ingr-info {
-            margin: 100px 5px 20px 50px;
-            font-size: 23px;
+            margin: 100px 50px 20px 25px;
+            font-size: 15px;
         }
 
         .alt-title {
@@ -258,8 +300,8 @@
         }
 
         .alt-info {
-            margin: 75px 250px 0 80px;
-            font-size: 23px;
+            margin: 75px 10px 0 80px;
+            font-size: 15px;
             width: 300px;
         }
     }
@@ -277,24 +319,25 @@
         }
 
         .prep-info {
-            font-size: 20px;
+            font-size: 15px;
             margin-left: 10px;
         }
 
         .note-info {
-            font-size: 20px;
+            font-size: 15px;
             margin-left: 30px;
-            width: 600px;/*Added width to fit tablet mode*/
+            width: 600px;
         }
 
         .stg-info {
-            margin: 20px 0 0 30px;
-            font-size: 20px;
+            margin: 20px 0 0 20px;
+            font-size: 15px;
+            width: 600px;
         }
 
         .prep-title h2, .stg-title h2, .note-title h2 {
             font-weight: normal;
-            font-size: 35px;
+            font-size: 30px;
         }
     }
 
@@ -335,9 +378,6 @@
     }
     
 }
-
-
-
 
 .line{
     margin: 50px 150px 0px 150px;

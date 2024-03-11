@@ -1,4 +1,8 @@
 import Link from "next/link";
+import styles from '@/styles/custom.module.scss';
+import {Button} from 'semantic-ui-react';
+import "semantic-ui-css/semantic.min.css";
+
 
 export default function RecipeHome({ recipe }) {
   return (
@@ -11,20 +15,24 @@ export default function RecipeHome({ recipe }) {
             src={recipe.images.image2}
             alt={recipe.name}
           />
-          <div className="recipe-card1">
-            <p className="protein-type-label">{recipe.type}</p>
-            <p className="recipe-title-style">{recipe.name}</p>
-            <Link className="recipe-button" href={`/${recipe.id}`}>
-              <button>view recipe</button>
+          <div className="recipe-card-container">
+            <div class="recipe-card-list1">
+              
+            <p className={styles["protein-type-label-custom"]}>{recipe.type}</p>
+            <p className={styles["recipe-title-style-custom"]}>{recipe.name}</p>
+            <Link className={styles["recipe-button-custom"]} href={`/${recipe.id}`}>
+              <Button class="recipe-button">view recipe</Button>
             </Link>
-            <p className="recipe-info">
+            <p className={styles["recipe-info-custom"]}>
               {recipe.time} | {recipe.size}
             </p>
           </div>
         </div>
       </div>
      </div>
-    
+     </div>
     </>
   );
 }
+
+

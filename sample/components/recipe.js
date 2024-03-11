@@ -34,10 +34,6 @@ function RecipePage({ recipe }) {
         <div className="img3-rcp">
           <img src={chosenRecipe.images.image2} alt="" />
         </div>
-        <div className="mobtab-flex">
-          <div className="img4-rcp-mobtab">
-            <img src="img/tinola-mobtab.png" alt="" />
-          </div>
           <div className="title-serve">
             <div className="title">
               <h1>{chosenRecipe.name}</h1>
@@ -67,7 +63,6 @@ function RecipePage({ recipe }) {
             </div>
           </div>
         </div>
-      </div>
       <div className="line">
         <hr />
       </div>

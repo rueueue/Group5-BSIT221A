@@ -1,6 +1,16 @@
-import Search from "@/components/search";
+import React from 'react';
+import { useRouter } from 'next/router';
+import Search from './search';
+import styles from '@/styles/custom.module.scss'
 
 function Header({ searchTerm, handleChange }) {
+  const router = useRouter();
+  
+  const handleShowRecipeClick = () => {
+    const recipeId = 6;
+    router.push(`/${recipeId}`);
+  };
+
   return (
     <div className="recipe-container">
       <div className="content-wrapper">
@@ -16,9 +26,9 @@ function Header({ searchTerm, handleChange }) {
                 <p className="highlighted-text1">Pusit</p>
               </div>
               <div className="recipe-button-container">
-                <a href="#recipe" className="recipe-title-text-style">
+                <button onClick={handleShowRecipeClick} className={styles['custom-recipe-button']}>
                   Show Recipe
-                </a>
+                </button>
               </div>
             </div>
           </div>
