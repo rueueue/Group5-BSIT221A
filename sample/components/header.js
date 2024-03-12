@@ -14,7 +14,7 @@ function Header({ searchTerm, handleChange }) {
   return (
     <div className="recipe-container">
       <div className="content-wrapper">
-        <img src="img/logo.png" className="image-container-styles" />
+        <img src="img/logo.webp" className="image-container-styles" />
       </div>
       <div className="recipe-card-container1">
         <div className="recipe-card-container2">

@@ -7,13 +7,13 @@
     font-family: "Poppins", sans-serif;
 }
 
-.navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 
+.navbar{
+      
+    
     .arrow{
         margin: 60px 0px 0px 60px;
+        float:left;
     }
     .icon{
         font-size: 35px;
@@ -26,13 +26,13 @@
     }
 
     .img2-logo img{
-        width: 461px;
-       margin-top: -150px;
-       margin-bottom: -10px;
-      
+       width: 400px;
+       margin-top: -120px;
+
+       float:right;
+       position:relative;
     }
 }
-
 .recipe-desc{
 
     .img3-rcp img{
@@ -52,112 +52,131 @@
     font-size: 20px;
     
 }
-.title{
-    color: #FF5757; 
-    font-size: 40px;
-    font-weight: bold;
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 1024px)
+{
+    .title{
+        color: #FF5757; 
+        font-size: 25px;
+        font-weight: bold;
+    }
    
-}
-
-.infos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 30px;
-
-    .info1{
-        margin-left: 100px;
-        font-size: 25px;
-    }
-
-    .info2{
-        margin-right: 150px;
-        font-size: 25px;
-    }
-    .flav{
-        margin-left: 100px;
-    }
+    .infos{
+ 
+        margin-top: 30px;
     
-}
+        .info1{
+            margin-left: 50px;
+            padding-bottom:3px;
+            font-size: 20px;
+        }
+    
+        .info2{
+            margin-left: 50px;
+            font-size: 20px;
+        }
+        .flav{
+            margin-left: 0px;
+        }
 
-.nutri, .ingredients, .alternative{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    .nutri-title{
-        margin: 75px 0px 0px 100px;
+        .span{
+         font-size: 20px;
+        }
+        
         
     }
-    .nutri-title h2, .ingr-title h2, .alt-title h2{
+
+
+    .nutri, .ingredients, .alternative{
+
+        .nutri-title1
+        {
+            font-size: 15px;
+        }
+        
+        
+        .nutri-title{
+            margin:  0px 0px 0px 50px;
+            
+        }
+        .nutri-title h2, .ingr-title h2, .alt-title h2{
+            
+            font-weight: normal;
+            font-size: 25px;
+        }
+        .nutri-info{
+            margin: 0px 0px 0px 70px;
+            font-size: 15px;
+        }
+        
+        .ingr-title{
+            margin: 10px 0px 0px 50px;
+        
+        }
+        .ingr-info{
+            margin: 0px 0px 0px 70px;
+            font-size: 15px;
+        }
+        
+        
+        .alt-title{
+            margin: 10px 0px 0px 50px;
+        }
+        .alt-info{
+            margin: 0px 0px 0px 70px;
+            font-size: 15px;
+            width: 300px;
+        }
+        
+    }
+
+    .line{
+        margin: 20px 30px 20px 30px;
+    }
+
+    .preparation, .storage, .note{
+
+        margin: 20px 0px 0px 50px;
         font-weight: normal;
-        font-size: 40px;
-    }
-    .nutri-info{
-        margin: 50px 300px 0px 0px;
-        font-size: 23px;
+    
+        .prep-info ul li{
+            list-style: none;
+        }
+        .prep-info, .note-info{
+            margin-top: 10px;
+            margin-right: 30px;
+            
+        }
+        .prep-info{
+            font-size: 15px;
+            margin-left: 10px;
+        }
+        .note-info{
+            font-size: 15px;
+            margin-left: 30px;
+            margin-right: 40px;
+          
+            
+        }
+        .stg-info{
+            margin: 20px 0px 0px 30px;
+            font-size: 15px;
+            margin-right: 30px;
+        }
+    
+        .prep-title h2, .stg-title h2, .note-title h2{
+            font-weight: normal;
+            font-size: 25px;
+        } 
     }
     
-    .ingr-title{
-        margin: 175px 0px 0px 100px;
-       
-    }
-    .ingr-info{
-        margin: 100px 210px 0px 0px;
-        font-size: 23px;
-    }
-    
-    
-    .alt-title{
-        margin: 75px 0px 0px 100px;
-    }
-    .alt-info{
-        margin: 75px 270px 0px 0px;
-        font-size: 23px;
-        width: 300px;
-    }
-    
-}
-
-
-
-.preparation, .storage, .note{
-
-    margin: 50px 0px 0px 100px;
-    font-weight: normal;
-
-    .prep-info ul li{
-        list-style: none;
-    }
-    .prep-info, .note-info{
-        margin-top: 25px;
-        
-    }
-    .prep-info{
-        font-size: 20px;
-        margin-left: 10px;
-    }
-    .note-info{
-        font-size: 20px;
-        margin-left: 30px;
-        width: 1300px;
-       
-      
-        
-    }
-    .stg-info{
-        margin: 20px 0px 0px 30px;
-        font-size: 20px;
-    }
-
-    .prep-title h2, .stg-title h2, .note-title h2{
-        font-weight: normal;
-        font-size: 35px;
-    } 
-}
-
 .browse{
-    margin: 60px 50px 0px 600px;
+    padding-top:30px;
+    text-align: center;
     height: 100px;
     
     button {
@@ -191,26 +210,20 @@
       }
       
     
+    }
+    
+    .icon:hover{
+        transform: scale(1.3); 
+    }
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 768px){ 
-
-    .title-serve{
-        text-align: center;
-        margin-top: 30px;
-        
-    }
-    
-    .serving{
-        font-size: 20px;
-        
-    }
+@media (min-width: 1024px)
+{
     .title{
         color: #FF5757; 
-        font-size: 30px;
+        font-size: 40px;
         font-weight: bold;
-       
     }
     
     .infos{
@@ -221,7 +234,7 @@
     
         .info1{
             margin-left: 100px;
-            font-size: 20px;
+            font-size: 25px;
         }
     
         .info2{
@@ -229,164 +242,137 @@
             font-size: 25px;
         }
         .flav{
-            margin-left: 100px;
-            font-size: 20px;
-        }
-        .flav, .sl, .ai, .ct{
-            font-size: 17px;
+            margin-left: 0px;
         }
         
     }
+    .nutri, .ingredients, .alternative{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
 
-    .navbar .arrow {
-        margin: 60px 0 0 60px;
-    }
-
-    .navbar .icon {
-        font-size: 35px;
-        color: black;
-    }
-
-    .navbar .img2-logo img {
-        width: 461px;
-        margin-top: -150px;
-        margin-bottom: -10px;
-    }
-
-    .infos {
-        margin-top: 30px;
-
-        .info1 {
-            margin-left: 100px;
-            font-size: 25px;
+        .nutri-title{
+            margin: 75px 0px 0px 100px;
+            
         }
-
-        .info2 {
-            text-align: right;/*To align text in tablet mode*/
-            font-size: 25px;
-        }
-
-        .flav {
-            margin-left: 100px;
-        }
-    }
-
-    .nutri, .ingredients, .alternative {
-        .nutri-title {
-            margin: 75px 0 0 50px;
-        }
-
-        .nutri-title h2, .ingr-title h2, .alt-title h2 {
+        .nutri-title h2, .ingr-title h2, .alt-title h2{
             font-weight: normal;
-            font-size: 30px;
+            font-size: 35px;
         }
-
-        .nutri-info {
-            margin: 50px 100px 0 30px;
-            font-size: 15px;
+        .nutri-info{
+            margin: 50px 140px 0px 100px;
+            font-size: 23px;
         }
-
-        .ingr-title {
-            margin: 175px 0 0 50px;
+        
+        .ingr-title{
+            margin: 75px 0px 0px 100px;
+        
         }
-
-        .ingr-info {
-            margin: 100px 50px 20px 25px;
-            font-size: 15px;
+        .ingr-info{
+            margin: 50px 50px 0px 0px;
+            font-size: 23px;
         }
-
-        .alt-title {
-            margin: 75px 0 0 50px;
+        
+        
+        .alt-title{
+            margin: 75px 0px 0px 100px;
         }
-
-        .alt-info {
-            margin: 75px 10px 0 80px;
-            font-size: 15px;
+        .alt-info{
+            margin: 50px 110px 0px 0px;
+            font-size: 23px;
             width: 300px;
         }
+        
+    } 
+
+    .line{
+        margin: 50px 150px 0px 150px;
     }
 
-    .preparation, .storage, .note {
-        margin: 50px 0 0 100px;
-        font-weight: normal;
+    .preparation, .storage, .note{
 
-        .prep-info ul li {
+        margin: 50px 0px 0px 100px;
+        font-weight: normal;
+    
+        .prep-info ul li{
             list-style: none;
         }
-
-        .prep-info, .note-info {
+        .prep-info, .note-info{
             margin-top: 25px;
+            
         }
-
-        .prep-info {
-            font-size: 15px;
+        .prep-info{
+            font-size: 20px;
             margin-left: 10px;
+            margin-right: 100px;
         }
-
-        .note-info {
-            font-size: 15px;
+        .note-info{
+            font-size: 20px;
             margin-left: 30px;
-            width: 600px;
+            margin-right: 100px;
+           
+          
+            
         }
-
-        .stg-info {
-            margin: 20px 0 0 20px;
-            font-size: 15px;
-            width: 600px;
+        .stg-info{
+            margin: 20px 0px 0px 30px;
+            font-size: 20px;
+            margin-right: 100px;
         }
-
-        .prep-title h2, .stg-title h2, .note-title h2 {
+    
+        .prep-title h2, .stg-title h2, .note-title h2{
             font-weight: normal;
-            font-size: 30px;
-        }
+            font-size: 35px;
+        } 
     }
 
-    .browse{
-        margin: 60px 50px 0px 250px;
-        height: 100px;
     
-        button {
-            padding: 17px 40px;
-            border-radius: 50px;
-            cursor: pointer;
-            border: 0;
-            background-color: white;
-            color: #ee9494;
-            box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
-            font-size: 15px;
-            transition: all 0.5s ease;
-          }
-          
-          button:hover {
-            letter-spacing: 3px;
-            background-color:#ee9494;
-            color: hsl(0, 0%, 100%);
-            box-shadow: #F3F3F3;
-          }
-          
-          button:active {
-            letter-spacing: 3px;
-            background-color: #ee9494;
-            color: hsl(0, 0%, 100%);
-            box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
-            transform: translateY(10px);
-            transition: 100ms;
-          }
-        
+.browse{
+    padding-top:50px;
+    text-align: center;
+    height: 100px;
+    
+    button {
+        padding: 17px 40px;
+        border-radius: 50px;
+        cursor: pointer;
+        border: 0;
+        background-color: white;
+        color: #ee9494;
+        box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        font-size: 15px;
+        transition: all 0.5s ease;
+      }
+      
+      button:hover {
+        letter-spacing: 3px;
+        background-color:#ee9494;
+        color: hsl(0, 0%, 100%);
+        box-shadow: #F3F3F3;
+      }
+      
+      button:active {
+        letter-spacing: 3px;
+        background-color: #ee9494;
+        color: hsl(0, 0%, 100%);
+        box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+        transform: translateY(10px);
+        transition: 100ms;
+      }
     }
-    
+ 
+    .icon:hover{
+        transform: scale(1.3);
+    }   
 }
 
-.line{
-    margin: 50px 150px 0px 150px;
-}
 
 
-.icon:hover{
-    transform: scale(1.3);
-    
-}
+
+
+
+
 
 

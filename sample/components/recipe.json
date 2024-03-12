@@ -7,7 +7,7 @@
     "flavor": "Salty",
     "allergenInformation": "Contains fish",
     "images": {
-      "image2": "../img/tinola.png"
+      "image2": "../img/tinola.webp"
     },
 
     "nutrition": {
@@ -60,7 +60,7 @@
     "allergenInformation": " Contains fish (Bangus)",
 
     "images": {
-      "image2": "../img/bangus.png"
+      "image2": "../img/bangus.webp"
     },
 
     "nutrition": {
@@ -112,7 +112,7 @@
     "allergenInformation": "Shrimp paste (Bagoong)",
 
     "images": {
-      "image2": "../img/laing.png"
+      "image2": "../img/laing.webp"
     },
 
     "nutrition": {
@@ -163,7 +163,7 @@
     "allergenInformation": "Shrimp paste (Bagoong)",
 
     "images": {
-      "image2": "/img/pork.png"
+      "image2": "/img/pork.webp"
     },
 
     "nutrition": {
@@ -214,7 +214,7 @@
     "allergenInformation": "Fish (tinapa), pork (chicharron)",
 
     "images": {
-      "image2": "../img/pancit.png"
+      "image2": "../img/pancit.webp"
     },
 
     "nutrition": {
@@ -267,7 +267,7 @@
     "allergenInformation": "None",
 
     "images": {
-      "image2": "../img/adobong_pusit.png"
+      "image2": "../img/adobong_pusit.webp"
     },
 
     "nutrition": {
@@ -317,7 +317,7 @@
     "allergenInformation": "Pork Blood",
 
     "images": {
-      "image2": "../img/dinuguan.png"
+      "image2": "../img/dinuguan.webp"
     },
 
     "nutrition": {
@@ -367,7 +367,7 @@
     "allergenInformation": "Shrimp paste (Bagoong)",
 
     "images": {
-      "image2": "../img/gising.png"
+      "image2": "../img/gising.webp"
     },
 
     "nutrition": {
@@ -421,7 +421,7 @@
     "allergenInformation": "None",
 
     "images": {
-      "image2": "../img/bicol.png"
+      "image2": "../img/bicol.webp"
     },
 
     "nutrition": {
@@ -471,12 +471,12 @@
     "allergenInformation": "Peanuts and Fish",
 
     "images": {
-      "image2": "../img/kare-kare.png"
+      "image2": "../img/kare-kare.webp"
     },
 
     "nutrition": {
       "calories": "400-450",
-      "protein": "20-25g",
+      "1rotein": "20-25g",
       "carbohydrates": "15-20g",
       "fat": "30-35g"
     },

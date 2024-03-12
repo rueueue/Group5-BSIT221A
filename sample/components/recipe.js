@@ -6,7 +6,7 @@ function RecipePage({ recipe }) {
   const chosenRecipe = recipes.find((r) => r.id === ID);
 
   if (!chosenRecipe) {
-    return <div>Recipe not found!</div>;
+    return <div>Recipe 404</div>;
   }
   return (
     <>
@@ -27,7 +27,7 @@ function RecipePage({ recipe }) {
           </div>
         </Link>
         <div className="img2-logo">
-          <img src="img/logo.png" alt="" />
+          <img src="img/logo.webp" alt="" />
         </div>
       </div>
       <div className="recipe-desc">
@@ -45,20 +45,20 @@ function RecipePage({ recipe }) {
           <div className="infos">
             <div className="info1">
               <div className="ct">
-                <b>Cooking Time:</b> <span>{chosenRecipe.time}</span>
+                <b>Cooking Time:</b> <span className="span">{chosenRecipe.time}</span>
               </div>
               <div className="ai">
                 <b>Allergen Information: </b>{" "}
-                <span>{chosenRecipe.allergenInformation}</span>
+                <span className="span">{chosenRecipe.allergenInformation}</span>
               </div>
             </div>
             <div className="info2">
               <div className="sl">
-                <b>Skill Level:</b> <span>{chosenRecipe.skill}</span>
+                <b>Skill Level:</b> <span className="span">{chosenRecipe.skill}</span>
               </div>
               <div className="flav">
                 <b>Flavor: </b>
-                <span>{chosenRecipe.flavor}</span>
+                <span className="span">{chosenRecipe.flavor}</span>
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@ function RecipePage({ recipe }) {
       <div className="nutri">
         <div className="nutri-title">
           {" "}
-          <h2>nutrition</h2> (estimated)
+          <h2>nutrition <span className="nutri-title1">(estimated)</span></h2> 
         </div>
         <div className="nutri-info">
           <ul>

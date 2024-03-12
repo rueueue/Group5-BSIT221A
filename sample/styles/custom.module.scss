@@ -2,7 +2,81 @@
 
 
 
-.custom-recipe-button {
+@media (min-width: 0px) and (max-width: 767px)
+{
+  .custom-recipe-button {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    height: 25px;
+    background-color: transparent;
+    color: white;
+    width: 100px;
+    padding-right: 11px;
+    padding-left: 11px;
+    border: 3px solid var(--color-white);
+    font-size:9pt;
+  }
+  .recipe-button-custom {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    text-align: center;
+    padding-top: 35px;
+    height: 38px;
+    margin-top: -2px;
+    font: var(--font-weight-500) var(--font-size-10) Poppins;
+    color: var(--color-darkslategrey-14624d51);
+    text-transform: uppercase;
+    cursor: pointer;
+    background: var(--color-991c5d52);
+    border-radius: var(--border-radius-24);
+  }
+
+  .protein-type-label-custom {
+    flex: 0 0 auto;
+    text-align: center;
+    font: var(--font-weight-500) var(--font-size-10) Poppins;
+    color: var(--color-darkgrey-46ff8a27);
+    white-space: pre-wrap;
+    font-family: "Poppins", sans-serif;
+    padding-top: -40px;
+  }
+
+  .recipe-title-style-custom {
+    flex: 0 0 auto;
+    margin-top: -15px;
+    margin-bottom: -10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-darkslategrey-9b95c861);
+    white-space: pre-wrap;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .recipe-info-custom {
+    flex: 0 0 auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    font: var(--font-weight-600) var(--font-size-10) Poppins;
+    color: var(--color-chocolate-23a323b2);
+    white-space: pre-wrap;
+    font-family: "Poppins", sans-serif;
+  }
+  
+}
+
+
+
+
+@media (min-width: 768px)
+{
+  .custom-recipe-button {
     box-sizing: border-box;
     display: flex;
     flex: 0 0 auto;
@@ -19,51 +93,52 @@
     
   }
 
-.recipe-button-custom {
-  box-sizing: border-box;
-  display: block;
-  flex: 0 0 auto;
-  align-self: flex-end;
-  text-align: center;
-  min-width: 133px;
-  height: 38px;
-  margin-top: -2px;
-  font: var(--font-weight-500) var(--font-size-14) Poppins;
-  color: var(--color-darkslategrey-14624d51);
-  text-transform: uppercase;
-  cursor: pointer;
-  background: var(--color-991c5d52);
-  border-radius: var(--border-radius-24);
-}
+  .recipe-button-custom {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    align-self: flex-end;
+    text-align: center;
+    min-width: 133px;
+    height: 38px;
+    margin-top: -2px;
+    font: var(--font-weight-500) var(--font-size-14) Poppins;
+    color: var(--color-darkslategrey-14624d51);
+    text-transform: uppercase;
+    cursor: pointer;
+    background: var(--color-991c5d52);
+    border-radius: var(--border-radius-24);
+  }
 
-.protein-type-label-custom {
-  flex: 0 0 auto;
-  margin-left: -30px;
-  font: var(--font-weight-500) var(--font-size-10) Poppins;
-  color: var(--color-darkgrey-46ff8a27);
-  white-space: pre-wrap;
-  font-family: "Poppins", sans-serif;
-  padding-top: -40px;
-}
+  .protein-type-label-custom {
+    flex: 0 0 auto;
+    margin-left: -30px;
+    font: var(--font-weight-500) var(--font-size-10) Poppins;
+    color: var(--color-darkgrey-46ff8a27);
+    white-space: pre-wrap;
+    font-family: "Poppins", sans-serif;
+    padding-top: -40px;
+  }
 
-.recipe-title-style-custom {
-  flex: 0 0 auto;
-  margin-top: -15px;
-  margin-bottom: -10px;
-  margin-left: -30px;
-  font-size: 30px;
-  font-weight: 600;
-  color: var(--color-darkslategrey-9b95c861);
-  white-space: pre-wrap;
-  font-family: "Poppins", sans-serif;
-}
+  .recipe-title-style-custom {
+    flex: 0 0 auto;
+    margin-top: -15px;
+    margin-bottom: -10px;
+    margin-left: -30px;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--color-darkslategrey-9b95c861);
+    white-space: pre-wrap;
+    font-family: "Poppins", sans-serif;
+  }
 
-.recipe-info-custom {
-  flex: 0 0 auto;
-  padding-bottom: 10px;
-  margin-left: -30px;
-  font: var(--font-weight-600) var(--font-size-10) Poppins;
-  color: var(--color-chocolate-23a323b2);
-  white-space: pre-wrap;
-  font-family: "Poppins", sans-serif;
+  .recipe-info-custom {
+    flex: 0 0 auto;
+    padding-bottom: 10px;
+    margin-left: -30px;
+    font: var(--font-weight-600) var(--font-size-10) Poppins;
+    color: var(--color-chocolate-23a323b2);
+    white-space: pre-wrap;
+    font-family: "Poppins", sans-serif;
+  }
 }
